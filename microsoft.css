@@ -1,0 +1,162 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    overflow:hidden scroll; /*This adjusts the scrollbar at the bottom of the web[age*/
+}
+.header{
+    display: flex;
+
+
+}
+.header img{
+    width: 120px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 39%;
+    margin-left: 150px;
+    margin-top: -1.7%;
+}
+   
+.end ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    float: right;
+    margin-right: 100px;
+    margin-top: -3.3%;
+}
+
+.main{
+    margin-top: -30%;
+    padding-left: 8%;
+}
+
+.image-main img{
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 13px;
+    
+}
+.main h1{
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 34.8px;
+}
+
+.main p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main :nth-child(1){
+    padding: 6px 12px;
+    border: none;
+    background-color:#ffb900 ;
+    font-weight: 600;
+}
+.main :nth-child(4){
+    padding: 10px 12px;
+    border: none;
+    background-color: #0067b8;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.first-row{
+    flex-direction:row;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 24%;
+    
+}
+
+.pic-two{
+    margin-right: 20px;
+}
+.pic-three{
+    margin-right: 20px;
+}
+.pic-four{
+    margin-right: 20px;
+
+}
+.pic-five{
+    margin-right: 20px;
+}
+.image-sixth{
+    margin-top: 9%;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+
+}
+.image-sixth img{
+    width: 80%;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 11%;
+}
+
+.second-main{
+    margin-left: 17%;
+    margin-top: -30%;
+}
+
+.second-main :nth-child(3){
+    padding: 10px 12px;
+    border: none;
+    background-color: #0067b8;
+    color: #ffff;
+    font-weight: 600;
+}
+.second-main h1{
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 34.8px;
+}
+
+.second-main p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.second-row{
+    flex-direction:row;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-top: 24%;
+}
+
+.pic-seven{
+    margin-right: 20px;
+}
+.pic-eight{
+    margin-right: 20px;
+}
+.pic-nine{
+    margin-right: 20px;
+
+}
+.pic-ten{
+ margin-right: 20px;
+}
+   
